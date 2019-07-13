@@ -1,0 +1,144 @@
+html{
+    background-repeat: no-repeat;
+    background-size:cover;    
+    
+    color:white;
+    font-family: cursive;
+}
+
+p{
+    font-size: 30px;
+    border: 40px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+#NS {
+    margin-left: 27%;
+    margin-right: 27%;
+    border-radius: 8px;
+    background-color:;
+    padding: 8px;     
+}
+
+#CM {
+    margin-left: 27%;
+    margin-right: 27%;
+    border-radius: 8px;
+    background-color:black;
+    padding: 8px;     
+}
+
+
+#DP {
+    margin-left: 27%;
+    margin-right: 27%;
+    border-radius: 8px;
+    background-color:black;
+    padding: 8px;     
+}
+
+#AC {
+    margin-left: ;
+    border-radius: 8px;
+    background-color:black;
+    padding: 8px;     
+}
+
+#ST {
+    margin-left: ;
+    border-radius: 8px;
+    background-color:black;
+    padding: 8px;     
+}
+
+
+
+*{
+   margin; 0;
+   padding: 0;
+   font-family: sans-serif;     
+}
+
+header{
+    background-image:url(../776284.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;    
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+}
+
+ul li a:hover{
+   background-color: #fff;
+   color: #000;
+}
+
+
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.title{
+     postition: absolute;
+    top: 50%;
+    left: 50%;
+    trasnform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    
+    
+}
+
+.button{
+    postition: absolute;
+    top: 60%;
+    left: 50%;
+    trasnform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding:10px 30px;
+}
+
+.block{
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    margin: 0px;
+    float:left;  
+}
+
+.login-container{
+    float: right;
+}
+
+.topnav .login-container button{
+    float: right;
+    
+}
